@@ -2,7 +2,7 @@
 # Michael Cysouw <cysouw@mac.com>
 
 read.multi <- function(table) {
-	read.table(table, sep = "\t", quote = "")
+	read.table(table, sep = "\t", quote = "", header = TRUE)
 }
 
 plot.align <- function(table, cols) {
